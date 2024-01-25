@@ -170,7 +170,6 @@ footer {
     bottom: 0;
     width: -webkit-fill-available;
     width: -moz-available;
-    width: fill-available;
     height: 50px;
     background-image: linear-gradient(90deg, #af2896, #509bf5);
     color: var(--text-base-light);
