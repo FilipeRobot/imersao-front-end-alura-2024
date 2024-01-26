@@ -1,0 +1,50 @@
+@media screen and (max-width: 1316px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header__search {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1016px) and (max-width: 1140px) {
+    .header__search {
+        /* display: none !important; */
+        width: auto !important;
+        display: none;
+    }
+
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .playlist-container {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: auto; /* Altura automática, ajusta conforme o conteúdo */
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    .sidebar {
+        width: 342px;
+    }
+
+    .offer__list-item {
+        grid-template-columns: 1fr;
+    }
+
+    .offer__scroll-container {
+        overflow-y: visible;
+    }
+}
